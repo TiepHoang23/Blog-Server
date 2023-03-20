@@ -25,10 +25,11 @@ async function updateBlogByUser(args, { signature }) {
     const { BlogId, BlogInput } = args;
     const id = new mongoose.Types.ObjectId(BlogId);
     const authorId = new mongoose.Types.ObjectId(BlogId);
+    // console.log(authorId);
 
     const blogInstance = await Blog.findOne({
       _id: id,
-      author: authorId,
+      // author: authorId,
     });
 
     if (!blogInstance) {
