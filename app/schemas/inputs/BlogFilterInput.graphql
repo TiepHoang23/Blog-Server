@@ -1,0 +1,4 @@
+input BlogFilterInput {
+  title: String
+  content: String
+}

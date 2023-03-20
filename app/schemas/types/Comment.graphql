@@ -1,0 +1,6 @@
+type Comment {
+  author: User
+  message: String
+  replies: [ID]
+  createdAt: String
+}

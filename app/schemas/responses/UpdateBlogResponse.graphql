@@ -1,0 +1,5 @@
+type UpdateBlogResponse {
+  isSuccess: String!
+  message: String!
+  blog: Blog
+}

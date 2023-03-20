@@ -1,0 +1,8 @@
+type Query {
+  users(filters: String, limit: Int = 10, cursor: ID): [User!]
+
+  #Blog query
+  listBlogs(limit: Int = 10, cursor: ID): [Blog!]
+  getBlogById(blogId: ID!): Blog
+  searchBlogs(filters: BlogFilterInput, limit: Int = 10, cursor: ID): [Blog!]
+}

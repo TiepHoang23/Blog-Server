@@ -1,0 +1,4 @@
+input BlogInput {
+  title: String!
+  content: String
+}

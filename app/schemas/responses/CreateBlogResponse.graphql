@@ -1,0 +1,10 @@
+type CreateBlogResponse {
+  isSuccess: String!
+  message: String!
+  blog: Blog
+}
+type CreateCommentResponse {
+  isSuccess: String!
+  message: String!
+  comment: Comment
+}
