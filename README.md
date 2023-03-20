@@ -1,4 +1,4 @@
-## HOANG VAN TIEP 
+## HOANG VAN TIEP - Internship Challenge
 #### Build Setup
 Type `npm start` to install all node_modules
 
