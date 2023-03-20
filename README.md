@@ -1,7 +1,9 @@
 ## HOANG VAN TIEP 
 #### Build Setup
 Type `npm start` to install all node_modules
+
 Type `npm start` to use a project
+
 to= `http://localhost:4000/graphql` Go to apollo page
 
 ### Features
